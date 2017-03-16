@@ -1,17 +1,20 @@
 <html>
 <head>
 <title>JavaScript Teacher</title>
+
+	<link rel="stylesheet" type="text/css" href="style/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="libs/jquery-3.1.1.slim.min.js"></script>
+	<script src="libs/codemirror.js"></script>
 	<script src="https://togetherjs.com/togetherjs-min.js"></script>
-	<script src="index.js"></script>
+	<script src="js/index.js"></script>
 	
 </head>
 
 <body>
-	<button onclick="TogetherJS(this); return false;">Start TogetherJS</button><br>
-
-	<textarea style="background-color: rgba(210, 210, 210, 0,3); width: 500; height: 500;" id="input">
-		//start trying to type here
-	</textarea>
+	<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+	
+	<textarea class="CodeMirror-textarea"></textarea>
 
 
 </body>
