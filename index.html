@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script src="libs/jquery-3.1.1.slim.min.js"></script>
 	<script src="libs/codemirror.js"></script>
+	<script src="libs/javascript/javascript.js"></script>
 	<script src="https://togetherjs.com/togetherjs-min.js"></script>
 	<script src="js/index.js"></script>
 	
@@ -13,8 +14,8 @@
 
 <body>
 	<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
-	
-	<textarea class="CodeMirror-textarea"></textarea>
-
+	<button onclick="submit()">submit</button>
+	<textarea id ="input" class="CodeMirror-textarea"></textarea>
+	<iframe id="output"></iframe>
 
 </body>

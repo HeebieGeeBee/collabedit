@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['preview-form-comment'
 
 <body>
 <form id="preview-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?">
-	<textarea class="CodeMirror-textarea" name="preview-form-comment" id="preview-form-comment"></textarea>
+	<textarea class="CodeMirror-textarea" name="preview-form-comment" id="preview-form-comment"><?php echo $comment;</textarea>
 	<br>
 	<input type="submit" name="preview-form-submit" id="preview-form-submit" value="submit"></input>
 </form>
